@@ -1,0 +1,128 @@
+/** BODY **/
+/* adds gray color to page's background */
+body {
+	background-color: #AEAEAE;
+	margin: 0;
+}
+/** SITE WRAPPER **/
+/* all classes with wrapper are changed to margin default and moved more towards middle */
+.wrapper {
+	margin: 0 auto;
+	width: 80%;
+}
+
+/** SITE HEADER **/
+/* adds background color/box to 'logo' */
+.header {
+	background-color: #E7E5E6;
+	padding: 30px;
+}
+/* targets the 'logo' and gave it a background color */
+.header .logo {
+	background-color: #AEAEAE;
+	/* puts a box around 'logo' */
+	display: inline-block;
+	font-size: 48px;
+	/* pushed logo more towards middle */
+	padding: 15px 50px;
+	text-transform: uppercase;
+}
+
+/** SITE NAVIGATION **/
+.navigation {
+	/* added gray background around nav links */
+	background-color: #A5A3A4;
+}
+.navigation ul {
+	/* took away space between nav links and logo border */
+	margin: 0;
+	/* moved nav links to the left */
+	padding-left: 0;	
+}
+/* makes nav links line up next to each other vs downwards */
+.navigation li {
+	display: inline-block;
+	padding: 15px 25px;
+}
+.navigation a {
+	/* a links all changed to white */
+	color: #fff;
+	/* took away underline */
+	text-decoration: none;
+	text-transform: uppercase;
+}
+
+/** MAIN DIV **/
+.main {
+	/* added background color to main section */
+	background-color: #F3EFF0;
+	float: left;
+	min-height: 600px;
+	/* pushed main section towards the left and moved sidebar to the right */
+	width: 70%;
+}
+/* targets main header */
+.main h1 {
+	/* moved main heading towards middle */
+	padding-left: 35px;
+}
+/* targets main paragraphs */
+.main p {
+	/* paragraphs pushed in */
+	padding: 5px 35px;
+}
+
+/** SIDEBAR DIV **/
+.sidebar {
+	/*adds bg color to sidebar */
+	background-color: #CECCCD;
+	/* moved back down under main section */
+	float: left;
+	/* adds space under header to match section */
+	min-height: 600px;
+	/* moved sidebar back on right side */
+	width: 30%;
+}
+.sidebar h2 {
+	/* targets second header */
+	padding-left: 20px;
+}
+/** SITE FOOTER **/
+.footer {
+	/* allows which side other elements surrounding it are allowed to float = on the left */
+	clear: left;
+	background-color: #514F50;
+	font-size: 14px;
+	/* pushed copyright in */
+	padding: 9px 0;
+}
+.footer p {
+	margin: 0;
+	color: #FFFFFF;
+	padding-left: 35px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
